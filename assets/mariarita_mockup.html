@@ -1,0 +1,325 @@
+<html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Portifolio</title>
+    <style>
+   {
+margin: 0px;
+padding: 0px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.center{
+text-align: center;
+}
+.imagem{
+display: grid;
+place-items: center;
+position: relative;
+z-index: 0;
+}
+.imagem h1{
+position: absolute;
+color: #f4f4f4;
+font-size: 40px;
+padding-left: 100px;
+z-index: 2;
+}
+.sombra{
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+justify-content: center;
+}
+.botao{
+border-style: solid;
+border-color: #111;
+padding: 10px;
+background-color: #444;
+color: #f4f4f4;
+text-decoration: none;
+text-align: center;
+}
+.fundo{
+padding-left: 100px;
+color: #f4f4f4;
+font-size: 40px;
+background-color: #222;
+}
+.gridconteiner{
+display: grid;
+height: 800px;
+align-items: center;
+grid-template-columns: auto auto;
+padding: 10px;
+}
+.griditens{
+padding: 50px;
+}
+.gridcerti{
+display: grid;
+justify-content: center;
+grid-template-columns: auto auto auto;
+}
+.p{
+margin: 0px;
+padding: 15px;
+height: 20px;
+background-color: #222;
+background-size: auto;
+color: #f4f4f4;
+text-align: left;
+font-size: 15px;
+}
+.sobre{
+background-color: #222;
+color: #f4f4f4;
+
+}
+.sobre p{
+font-size: 20px;
+}
+.sobrej{
+background-color:#111;
+text-align: center;
+color: #f4f4f4;
+}
+.certificados{
+background-color: #f4f4f4;
+color: #111;
+}
+.h1certificados{
+padding: 100px;
+}
+.reflexao{
+padding: 40px;
+padding-left: 300px;
+padding-right: 300px;
+text-align: center;
+height: 500px;
+}
+.mencao{
+padding: 40px;
+color: #999;
+}
+.centerj{
+text-align: center;
+padding: 40px;
+}
+.sobrefc{
+padding: 100px;
+text-align: center;
+background-color: #222;
+color: #f4f4f4;
+}
+.gridfc{
+display: grid;
+grid-template-columns: auto auto;
+}
+.gridj{
+display:grid;
+grid-template-columns: auto auto;
+justify-content: center;
+row-gap: 10px;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+.data{
+padding-left: 10px;
+}
+.frases{
+padding-left: 10px;
+text-align: left;
+}
+.imgfc{
+padding-left: 40px;
+}
+.textfc{
+padding: 50px;
+text-decoration: none;
+font-size: 15px;
+color: #777;
+}
+a{
+text-decoration: none;
+color: #f7f7f7;
+}
+.textfc p{
+color: #f7f7f7;
+}
+footer{
+font-size: 15px;
+text-align: center;
+background-color: #222;
+color: #f4f4f4;
+}
+.data{
+padding-left: 10px;
+
+}
+.classes{
+padding-left: 10px;
+text-align: left;
+}
+@media only screen and (max-width: 450px){
+*{
+    @media only screen and (max-width: 450px){
+.imagem h1{
+    font-size: 20px;
+    padding: 7px;
+}   
+.gridconteiner{
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.griditens img{
+    width: 250px; 
+    height: 250px;
+}
+.reflexao{
+    font-size: 15px;
+    padding: 40px;
+    text-align: center;
+    height: auto;
+}
+.gridcerti {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.gridfc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gridfc img{
+    width: 250px;
+    height: 250px;
+}
+footer{
+    padding: 5px;
+    font-size: 18px;
+}
+.imgfc {
+    padding-left: 0px;
+}
+}
+}    
+}
+</style>
+</head>
+<body>
+    <!--Background-->
+    <div class="fundo">
+        <div>
+            <h1>Maria Rita</h1><h1></h1>
+            <p>Estudante e futura desenvolvedora de sites web</p>
+        </div>
+    </div>
+    <!--Sobre-->
+    <div class="sobre gridconteiner">
+        <div class="center griditens">
+            <img src="./img/mariarita.jpg" alt="Maria Rita" width="400" height="400">
+        </div>
+        <div class="center griditens">
+            <h1>
+                Sobre
+            </h1>
+            <p>
+                Em maio de 2023 iniciei o curso de informática para internet na unidade Senai de São João Nepomuceno apenas com o intuito de agregar meu currículo profissional,mas acabei me apaixonando pela area e hoje pretendo me tornar uma desenvolvedora web.
+                <a href="#">Saiba Mais &gt;</a>
+            </p>
+        </div>
+    </div>
+    <!--Certificados-->
+    <div class="certificados">
+        <div>
+            <div class="h1certificados">
+            <h1>Certificados</h1>
+            <p>Logo abaixo é possível ver os certificados que consgui nas instituiçõesem que estudei</p>
+        </div>
+        <div class="gridcerti">
+            <div class="griditens">
+            <img src="./img/certificado.png" alt="Certificacoes" width="250" height="250">
+               <div><p>Escola EStadual Francisco Manuel</p></div>
+            </div>
+            <div class="griditens">
+                <img src="./img/certificado.png" alt="Certificacoes" width="250" height="250"><br>
+                <div><p>Curso Ingles</p></div>
+            </div>
+            
+                <div class="griditens">
+                    <img src="./img/certificado.png" alt="Certificacoes" width="250" height="250"><br>
+                   <div><p>Curso Informatica Para Internet- SENAI</p></div> 
+               </div>
+        </div>
+        <br><br><br>
+    </div>
+   <!--Jornada-->
+   <div>
+    <div>
+        <div class="sobrej">
+        <h1>Nossa Jornada</h1>    
+    </div>
+    <div>
+        <div class="gridj">
+        <div class="data">
+            <h1>2022-2024</h1>
+        </div>
+        <div class="frases">
+            
+            <p>Conclusão do Ensino médio</p>
+        </div>
+        <div class="data">
+            <h1>2023-2024</h1>
+        </div>
+        <div class="frases">
+            
+            <p>Concluindo o curso de informática para internet na unidade Senai São João Nepomuceno</p>
+        </div>
+    </div>
+    <br><br><br>
+</div>
+    <!--Reflexão--> 
+    <div class="sobre">
+        <div class="frase">
+            <h1>Estamos nos afogando em informações,mas estamos sedentos de conhecimento.</h1><br>
+            <h1 class="mencao">Maurício R.A. Martins
+            </h1>
+        </div>
+    </div> 
+    <!--Portifolio-->
+    <h1 class="sobrefc">Trabalhe conosco </h1>
+    <div class="sobre gridfc">
+        <div class="imgfc">
+            <img src="c:\Users\rl920\Documents\assets\img\pexels-fauxels-3184465.jpg" alt="Trabalhe Conosco" width="700" height="600">
+        </div>
+        <div class="textfc">
+            <div class="textfc">
+                <h1>Instagram</h1>
+                <p>maria.r_neves</p>
+            </div>
+            <div class="textfc">
+                <h1>Telefone</h1>
+                <p>(32)99929-4035</p>
+            </div>
+            <div class="textfc">
+                <div class="textfc">
+                    <h1>Github</h1>
+                    <p>https://github.com/MRneveslima</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <footer>
+            <p> © Todos os Direitos Reservados - Coprygth - 2024</p>
+         </footer>
+
+         </div>
+        </div>
+     </div>
+    </body>
+</html>
